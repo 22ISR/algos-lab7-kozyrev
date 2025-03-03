@@ -50,6 +50,7 @@ def isPalindromList(text):
 
 # #№3
 def isPalindromString(string):
+    string = string.split()
     for words in string:
         print(words), polidrom(words)
 
